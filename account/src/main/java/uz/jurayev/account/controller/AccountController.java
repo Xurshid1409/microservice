@@ -17,7 +17,6 @@ import uz.jurayev.account.service.AccountService;
 
 @Tag(name = "AccountController", description = "CRUD operation in account microservice")
 @RestController
-//@RequiredArgsConstructor
 @RequestMapping("/api/")
 @Validated
 public class AccountController {

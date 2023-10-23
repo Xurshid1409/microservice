@@ -2,7 +2,7 @@ spring:
   application:
     name: "cards"
   datasource:
-    url: jdbc:mysql://localhost:3307/cardsdb
+    url: jdbc:mysql://localhost:3307/cards
     username: root
     password: root
   jpa:
@@ -19,11 +19,11 @@ spring:
   config:
     import: "optional:configserver:http://localhost:8071/"
 
-  rabbitmq:
-    host: localhost
-    port: 5672
-    username: guest
-    password: guest
+#  rabbitmq:
+#    host: localhost
+#    port: 5672
+#    username: guest
+#    password: guest
 
 springdoc:
   swagger-ui:
